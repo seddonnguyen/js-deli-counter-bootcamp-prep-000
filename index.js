@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
       if(i === 0) {
         temp = `The line is currently: 1. ${katzDeliLine[i]}`;
       } else {
-        temp = temp + `, ${i+1}. ${katzDeliLine[i]}`;
+        temp = `${temp}, ${i+1}. ${katzDeliLine[i]}`;
       }
     }
     return temp;
